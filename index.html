@@ -25,12 +25,20 @@
     <header>
         <img class="img-fluid" id="logo" src="assets/images/rick-morty-logo.png" alt="rick and morty logo">
         <h1>Trivia Game!</h1>
+        <h3>Correct Answers:<span id="wins"></span></h3>
+        <h3>Inorrect Answers:<span id="losses"></span></h3>
+        <h3>Time Left:<span id="timer"></span></h3>
     </header>
 
 <div class="container">
 
     <!--Game Section-->
     <div class="row">
+
+        <div class="container" id="render-questions">
+        </div>
+
+        <div id="restart"></div>
 
         <section id="game-section">
             <h2>How Well Do You Know Rick And Morty?</h2>
